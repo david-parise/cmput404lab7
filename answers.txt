@@ -1,0 +1,38 @@
+CMPUT 404 Lab 7 Answers
+
+0. Question 0
+-  https://github.com/david-parise/cmput404lab7.git
+
+1. Question 1
+-  Django can work with various databases like PostgreSQL, MySQL, SQLite, and more. Meanwhile Flask cannot as it does not support the ORM framework.
+-  Other differences include:
+   -  Flask is lightweight and suitable for single page applications only. Meanwhile, Django is best suited fore developing large and complex web applications.
+   -  Django has a ready-to-use admin framework, something that Flask does not have.
+
+2. Question 2
+-  REST - respresentational state transfer
+-  In order to be considered RESTful, a system must satisfy a number of architectural constraints:
+   -  They system operates in the client-server model
+   -  Servers and clients do not need to keep track of each other's states
+   -  Uniform interface
+   -  Caching
+   -  Layered system
+
+3. Question 3
+-  CRUD - Create Read Update Delete
+-  Corresponding HTTP methods - POST, GET, PUT, and DELETE
+
+4. Question 4
+-  HTTP 1xx - Informational responses
+-  HTTP 2xx - Successful responses
+-  HTTP 3xx - Redirection messages
+-  HTTP 4xx - Client error responses
+-  HTTP 5xx - Server error responses
+
+5. Question 5
+-  XSS - Cross Site Scripting
+-  One way a site can be vulnerable to an XSS attack is if the page is available publicly, allowing the attackers to inject their code to target visitors.
+
+6. Question 6
+-  CORS - Cross-Origin Resource Sharing
+-  One situation we need to implement CORS protection is when we embed a page, e.g. a form or video, outside our main web domain.
